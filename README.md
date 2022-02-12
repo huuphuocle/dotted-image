@@ -12,6 +12,4 @@ The command
 
 will create the following result
 
-<img src="https://github.com/huuphuocle/dotted-image/blob/main/img/walle.png" alt="Input image" width="200"/>
-
-<img src="https://github.com/huuphuocle/dotted-image/blob/main/img_out/walle_dotted.png" alt="Output image" width="200"/>
+<img src="https://github.com/huuphuocle/dotted-image/blob/main/img/walle.png" alt="Input image" width="400"/> <img src="https://github.com/huuphuocle/dotted-image/blob/main/img_out/walle_dotted.png" alt="Output image" width="400"/>
