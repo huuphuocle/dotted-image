@@ -23,5 +23,5 @@ will create the following result
 
 ## References
 
-[Fast Poisson Disk Sampling in Arbitrary Dimensions](https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf)
-[Poisson Disk Sampling](http://devmag.org.za/2009/05/03/poisson-disk-sampling/)
+* [Fast Poisson Disk Sampling in Arbitrary Dimensions](https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf)
+* [Poisson Disk Sampling](http://devmag.org.za/2009/05/03/poisson-disk-sampling/)
