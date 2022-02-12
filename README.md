@@ -1,6 +1,6 @@
 # Dotted-image
 
-This is a Python implementation of some algorithms for Poisson disk samplings.
+This is a Python implementation of some algorithms for Poisson disk samplings. This is done in a small project with [Ho Thi Minh Ha](https://github.com/tmhho).
 
 To use this script, call 
 
@@ -19,7 +19,7 @@ The command
 
 will create the following result
 
-<img src="https://github.com/huuphuocle/dotted-image/blob/main/img/walle.png" alt="Input image" width="400"/> <img src="https://github.com/huuphuocle/dotted-image/blob/main/img_out/walle_dotted.png" alt="Output image" width="400"/>
+<img src="https://github.com/huuphuocle/dotted-image/blob/main/img/walle.png" alt="Input image" width="300"/> <img src="https://github.com/huuphuocle/dotted-image/blob/main/img_out/walle_dotted.png" alt="Output image" width="300"/>
 
 ## References
 
