@@ -6,6 +6,12 @@ To use this script, call `./dotted-image [input] [output]` where `[input]` is th
 
 ### Example
 
-![Input image](https://github.com/huuphuocle/dotted-image/blob/main/img/walle.png "A very famous robot")
+The command
 
-![Output image](https://github.com/huuphuocle/dotted-image/blob/main/img_out/walle_dotted.png "This looks like an image of a very famous robot")
+`./dotted-image ../img/walle.png ../img_out/walle_dotted.png`
+
+will create the following result
+
+<img src="https://github.com/huuphuocle/dotted-image/blob/main/img/walle.png" alt="Input image" width="200"/>
+
+<img src="https://github.com/huuphuocle/dotted-image/blob/main/img_out/walle_dotted.png" alt="Output image" width="200"/>
