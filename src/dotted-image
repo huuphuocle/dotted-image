@@ -1,0 +1,24 @@
+#! /usr/bin/python3
+
+import sys
+import PIL
+import matplotlib.pyplot as plt
+import poisson
+import numpy as np
+
+N = 1001
+img = PIL.Image.open(sys.argv[1]).convert('L')
+img = img.resize((N,N),PIL.Image.ANTIALIAS)
+img = np.array(img,dtype=float)
+img = np.rot90(np.rot90(np.rot90(img)))
+
+scale = 5
+samples = poisson.PoissonDisc_dwork(0.001,0.02,10,img)
+p = scale*np.array(samples)
+plt.scatter(p[:,0],p[:,1],s = 1, color='black')
+plt.gca().set_aspect('equal', adjustable='box')
+plt.xlim([0,scale])
+plt.ylim([0,scale])
+plt.axis('off')
+plt.savefig(sys.argv[2], dpi=100)
+plt.clf()
